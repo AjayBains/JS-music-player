@@ -63,3 +63,24 @@ span {
     opacity: 0.1;
   }
 }
+
+/* media queries */
+
+@media only screen and (max-width: 1000px) {
+  .control-btns {
+    width: 85%;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .controls .container {
+    padding: 0.8rem;
+  }
+  .music-title {
+    font-size: 1.2rem;
+  }
+  .control-btns {
+    width: 95%;
+    margin-top: 2rem;
+  }
+}
